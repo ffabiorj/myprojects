@@ -1,5 +1,13 @@
+[![Build Status](https://travis-ci.org/ffabiorj/myprojects.svg?branch=master)](https://travis-ci.org/ffabiorj/myprojects)
+
+
+[![codecov](https://codecov.io/gh/ffabiorj/myprojects/branch/master/graph/badge.svg)](https://codecov.io/gh/ffabiorj/myprojects)
+
+
+
 # My Projects
 I developed this project to demonstrate my personal projects.
+
 
 ## Development tools
 * Django
@@ -21,7 +29,7 @@ git clone git@github.com:ffabiorj/myprojects.git
 cd myprojects
 python3 -m venv .venv
 sourch .venv/bin/activate
-pip install -r requirements.txt
+pip install -r requirements-dev.txt
 mv .env_exemplo .env
 http://127.0.0.1:8000/
 ```
